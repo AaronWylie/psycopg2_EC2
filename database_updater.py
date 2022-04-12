@@ -8,10 +8,10 @@ from datetime import datetime
 def adder(img, user_name, location_x, location_y, location_z, bot_run):
     # --- connects to database ---
     con = p.connect(
-        host='database-1.ctagzvsokrv9.us-east-2.rds.amazonaws.com',
+        host='HIDDEN',
         database='demo_1',
         user='aaronwylie',
-        password='Frogybob1',
+        password='HIDDEN',
         port=5432
     )
 
